@@ -3,6 +3,8 @@ Elastio Rust Test Task Solution
 
 ## _Structure_
 
+To keep things simple - complex methods to store information are not used:
+
 Program uses 4 files to store and configure avalible weather apis
 
 - apiNames -- names of avalible apis
