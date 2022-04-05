@@ -39,8 +39,7 @@ Type _get_ <cityname> to request api for information about the weather in the ci
 
  Type _configure_ <apiName> to change current weather api. If api was changed - 
  
-  Example of getting info from two seperate sources
+Example of getting info from two seperate sources
 
-  <img src="readMe\4.png"></img>
+<img src="readMe\4.png"></img>
   
-Id of the current weather
