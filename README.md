@@ -36,8 +36,10 @@ Type _list_ for list of available weather Api
 <img src="readMe\2.png"></img>
 
 Type _get_ <cityname> to request api for information about the weather in the city <cityname>
-Type _configure_ <apiName> to change current weather api. If api was changed - 
-  
+
+ Type _configure_ <apiName> to change current weather api. If api was changed - 
+ 
+  Example of getting info from two seperate sources
 
   <img src="readMe\4.png"></img>
   
