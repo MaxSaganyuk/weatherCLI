@@ -28,11 +28,17 @@ During runtime selected city and api (it's key) is put instead of placeholders
 
 Type _help_ for list of available commands
 
+<img src="readMe\1.png"></img>
 
 
 Type _list_ for list of available weather Api
 
+<img src="readMe\2.png"></img>
 
+Type _get_ <cityname> to request api for information about the weather in the city <cityname>
 Type _configure_ <apiName> to change current weather api. If api was changed - 
+  
+
+  <img src="readMe\4.png"></img>
   
 Id of the current weather
