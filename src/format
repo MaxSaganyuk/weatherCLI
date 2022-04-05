@@ -1,0 +1,2 @@
+https://api.openweathermap.org/data/2.5/weather?q={C}&appid={K}
+https://api.weatherapi.com/v1/current.json?key={K}&q={C}&aqi=no
