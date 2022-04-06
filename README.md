@@ -3,12 +3,13 @@ Elastio Rust Test Task Solution
 
 ## _Structure_
 
+Two weather api implemented - OpenWeather and weatherapi
+
 To keep things simple - complex methods to store information are not used:
 
-Program uses 4 files to store and configure avalible weather apis
+Program uses 3 files to store and configure avalible weather apis
 
 - apiNames -- names of avalible apis
-- keys     -- keys for each api for 
 - current  -- current id of an api
 - format   -- format of the request for each api
 
@@ -25,6 +26,10 @@ Where
 {K} - key placeholder
 
 During runtime selected city and api (it's key) is put instead of placeholders
+
+For key storage - 2 files named accordingly to api names are created. 
+
+To confirm a key user must use _configure_ command
 
 ## _How to use_
 
@@ -43,9 +48,9 @@ gives list of available weather Api
 <img src="readMe\2.png"></img>
 
 ```
-weatherCLI get <cityname> 
+weatherCLI get <cityname> [api_name]
 ```
-to request api for information about the weather in the city <cityname>
+to request api for information about the weather in the city <cityname>. Using [api_name] api. By default parameter _api_name_ is using last used api - so user is not obligated to enter prefered api each time. (OpenWeather is used if no apis were ever used)
 
 ```
 weatherCLI configure <apiName>
@@ -55,5 +60,5 @@ to change current weather api. If api was changed -
  
 Example of getting info from two seperate sources
 
-<img src="readMe\4.png"></img>
+<img src="readMe\6.png"></img>
   
