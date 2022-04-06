@@ -1,6 +1,8 @@
 # weatherCLI
 Elastio Rust Test Task Solution
 
+Was created and tested on Linux (Lubuntu) via virtual machine
+
 ## _Structure_
 
 Two weather api implemented - OpenWeather and weatherapi
@@ -10,7 +12,7 @@ To keep things simple - complex methods to store information are not used:
 Program uses 3 files to store and configure avalible weather apis
 
 - apiNames -- names of avalible apis
-- current  -- current id of an api
+- current  -- current id of an api (Id of an api corresponds to position in apiNames file)
 - format   -- format of the request for each api
 
 This was implemented using placeholders for the city and key. Example for OpenWeather:
@@ -50,7 +52,9 @@ gives list of available weather Api
 
  If user tries to receive infomation from provider without configuring his key first - user will get an error
 
- 
+<img src="readMe\4.png"></img>
+
+
  Configuring/setting the key looks like this
 
 
