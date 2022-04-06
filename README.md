@@ -52,13 +52,14 @@ weatherCLI get <cityname> [api_name]
 ```
 to request api for information about the weather in the city <cityname>. Using [api_name] api. By default parameter _api_name_ is using last used api - so user is not obligated to enter prefered api each time. (OpenWeather is used if no apis were ever used)
 
-```
-weatherCLI configure <apiName>
-```
-to change current weather api. If api was changed - 
- 
- 
-Example of getting info from two seperate sources
+ If user tries to receive infomation from provider without configuring his key first - user will get an error
 
-<img src="readMe\6.png"></img>
+ 
+ Configuring/setting the key looks like this
+
+```
+weatherCLI configure <apiName> <key>
+```
+ 
+
   
