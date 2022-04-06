@@ -33,6 +33,19 @@ For key storage - 2 files named accordingly to api names are created.
 
 To confirm a key user must use _configure_ command
 
+ ### _Optiization for hypothetical future improvments_
+ 
+ 
+Let's assume that this project will require more functional apis. The process to achieve this will require
+
+- adding it's name to apiNames file
+- adding it's request format to format file
+- adding new code for parsing json for this new api in this section of the code to connect_to_api function
+
+<img src="readMe\7.png"></img>
+
+Process is automated enough to not require any additional work
+
 ## _How to use_
 
 ```
