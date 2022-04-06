@@ -47,19 +47,33 @@ gives list of available weather Api
 
 <img src="readMe\2.png"></img>
 
-```
-weatherCLI get <cityname> [api_name]
-```
-to request api for information about the weather in the city <cityname>. Using [api_name] api. By default parameter _api_name_ is using last used api - so user is not obligated to enter prefered api each time. (OpenWeather is used if no apis were ever used)
 
  If user tries to receive infomation from provider without configuring his key first - user will get an error
 
  
  Configuring/setting the key looks like this
 
+
 ```
 weatherCLI configure <apiName> <key>
 ```
- 
 
+<img src="readMe\3.png"></img>
+
+After configuration - user can recive information from providers
+
+```
+weatherCLI get <cityname> [api_name]
+```
+
+to request api for information about the weather in the city <cityname>. Using [api_name] api. By default parameter _api_name_ is using last used api - so user is not obligated to enter prefered api each time. (OpenWeather is used if no apis were ever used)
+
+Demonstration:
+ 
+<img src="readMe\6.png"></img>
+
+- First call - information is requested without specifying the provider, information is received from default provider OpenWeather
+- Second call - information is requested with specifing the provider weatherapi, information is received from new provider weatherapi and "current" file changes it's value to 1
+- Third call - information is requested without specifying the provider, information is received from last used provider, in this case it's weatherapi
+- Fourth call - information is requested with specifing the provider weatherapi, information is received from new provider OpenWeather and "current" file changes it's value to 0
   
